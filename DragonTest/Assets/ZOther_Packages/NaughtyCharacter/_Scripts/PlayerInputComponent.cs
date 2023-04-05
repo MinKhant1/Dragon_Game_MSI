@@ -11,6 +11,8 @@ namespace NaughtyCharacter
         public bool JumpInput { get; private set; }
         public bool HasMoveInput { get; private set; }
 
+        public bool FireBreatheInput { get; private set; }
+
         public void OnMoveEvent(InputAction.CallbackContext context)
         {
             Vector2 moveInput = context.ReadValue<Vector2>();
@@ -40,6 +42,18 @@ namespace NaughtyCharacter
             {
                 JumpInput = false;
             }
+        }
+        public void OnBreatheFire(InputAction.CallbackContext context)
+        {
+            if(context.started)
+            {
+                FireBreatheInput = true;
+            }
+            else if(context.canceled)
+            {
+                FireBreatheInput = false;
+            }
+
         }
     }
 }
