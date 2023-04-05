@@ -400,6 +400,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1119716274}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1119716276 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6073199023300449882, guid: 624ed88bdba9ae549b799fc81ade2689,
+    type: 3}
+  m_PrefabInstance: {fileID: 1119716274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1119716280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,6 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _breatheFireParticle: {fileID: 1829830078}
   _playerInput: {fileID: 440130476}
+  _anim: {fileID: 1119716276}
 --- !u!1 &1190226698 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3306100764376975615, guid: 80844b2319340044da27db99208a9eac,
