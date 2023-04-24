@@ -294,11 +294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 543450652922796393, guid: 624ed88bdba9ae549b799fc81ade2689,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.05
-      objectReference: {fileID: 0}
     - target: {fileID: 3902157398716559074, guid: 624ed88bdba9ae549b799fc81ade2689,
         type: 3}
       propertyPath: m_RootOrder
@@ -354,18 +349,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6073199023300449882, guid: 624ed88bdba9ae549b799fc81ade2689,
-        type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: f8f53539a37c273488d3a6e850248b4d, type: 3}
     - target: {fileID: 8871225050701723248, guid: 624ed88bdba9ae549b799fc81ade2689,
         type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5866666021260559123, guid: 624ed88bdba9ae549b799fc81ade2689, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 624ed88bdba9ae549b799fc81ade2689, type: 3}
 --- !u!1 &1190226698 stripped
 GameObject:
